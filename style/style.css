@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section__pay {
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 650px) {
+  .section__pay {
+    padding-top: 30px;
+  }
+}
+.section__pay .payF {
+  background: linear-gradient(107.62deg, rgba(255, 195, 80, 0.85) -53.02%, rgba(255, 195, 80, 0.85) 134.49%);
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  min-height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 120px;
+}
+@media screen and (max-width: 992px) {
+  .section__pay .payF {
+    padding: 60px;
+    margin-top: 50px;
+    max-width: none;
+    min-height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section__pay .payF {
+    margin-top: 50px;
+    padding: 0px 0px;
+  }
+}
+.section__pay .payF img {
+  width: 120px;
+}
+@media screen and (max-width: 700px) {
+  .section__pay .payF img {
+    width: 70px;
+  }
+}
+.section__pay .payF__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 700px) {
+  .section__pay .payF__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section__pay .payF__title {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
